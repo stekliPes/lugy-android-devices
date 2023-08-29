@@ -8,3 +8,5 @@ PRODUCT_NAME := aosp_lugy_x86
 PRODUCT_DEVICE := lugy_device
 PRODUCT_BRAND := Lugy-android
 PRODUCT_MODEL := Lugys Android on x86 emulator
+
+MODULE_BUILD_FROM_SOURCE := true
