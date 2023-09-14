@@ -6,6 +6,7 @@ $(call inherit-product, device/generic/car/emulator/aosp_car_emulator.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86.mk)
 
 $(call inherit-product-if-exists, zajebancije/generalKenobi/generalKenobi.mk)
+$(call inherit-product-if-exists, zajebancije/dds-test/dds-test.mk)
 
 EMULATOR_VENDOR_NO_SOUND := true
 PRODUCT_NAME := aosp_lugy_x86

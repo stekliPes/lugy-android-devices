@@ -3,6 +3,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86.mk)
 
 $(call inherit-product-if-exists, zajebancije/generalKenobi/generalKenobi.mk)
+$(call inherit-product-if-exists, zajebancije/dds-test/dds-test.mk)
 
 PRODUCT_NAME := aosp_lugy_x86
 PRODUCT_DEVICE := lugy_device
