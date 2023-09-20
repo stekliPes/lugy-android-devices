@@ -7,6 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_x86.mk)
 
 $(call inherit-product-if-exists, zajebancije/generalKenobi/generalKenobi.mk)
 $(call inherit-product-if-exists, zajebancije/dds-test/dds-test.mk)
+$(call inherit-product-if-exists, external/dds/lugy-dds-vhal/lugy-dds-vhal.mk)
 
 EMULATOR_VENDOR_NO_SOUND := true
 PRODUCT_NAME := aosp_lugy_x86
